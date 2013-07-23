@@ -2,6 +2,12 @@
 -compile (export_all).
 
 
+% solution to http://projecteuler.net/problem=1
+%
+% run with:
+%
+% multiplesOfThreeAndFive(1000).
+
 multiplesOfThreeAndFive(I) ->
 	multiplesOfThreeAndFiveWorker(0, I-1).
 
